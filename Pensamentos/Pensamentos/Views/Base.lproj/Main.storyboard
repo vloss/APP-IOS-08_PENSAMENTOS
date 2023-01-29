@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xXm-R1-Bw9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xXm-R1-Bw9">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ka7-ko-N6N">
@@ -28,19 +28,19 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dQ2-bM-oUN">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="349"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="349"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dQ2-bM-oUN" secondAttribute="height" multiplier="750:666" id="Tb7-tv-lkG"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pensamento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="I2q-zL-spm">
-                                <rect key="frame" x="40" y="359" width="313" height="47.666666666666686"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" text="Pensamento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="I2q-zL-spm">
+                                <rect key="frame" x="40" y="418" width="313" height="47.666666666666686"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tM7-i7-LTh">
-                                <rect key="frame" x="172.33333333333334" y="426.66666666666669" width="48.333333333333343" height="35.666666666666686"/>
+                                <rect key="frame" x="172.33333333333334" y="485.66666666666669" width="48.333333333333343" height="35.666666666666686"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="30"/>
                                 <color key="textColor" red="0.75294117647058822" green="0.37647058823529411" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -51,7 +51,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="dQ2-bM-oUN" secondAttribute="trailing" id="6VB-3j-Nks"/>
                             <constraint firstItem="xXm-R1-Bw9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8NL-oX-tdn"/>
-                            <constraint firstItem="dQ2-bM-oUN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8cj-8x-5nh"/>
+                            <constraint firstItem="dQ2-bM-oUN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8cj-8x-5nh"/>
                             <constraint firstItem="dQ2-bM-oUN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AE3-2W-Hg1"/>
                             <constraint firstItem="Ka7-ko-N6N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bgy-ot-ZL0"/>
                             <constraint firstItem="I2q-zL-spm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="CHB-AV-7GU"/>
@@ -72,11 +72,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quotes" id="uLh-JG-onl"/>
                     <connections>
-                        <outlet property="ctTop" destination="bCG-Y5-VZD" id="OVc-D1-vsd"/>
                         <outlet property="ivPhoto" destination="dQ2-bM-oUN" id="9Yf-4G-ygP"/>
                         <outlet property="ivPhotoBg" destination="xXm-R1-Bw9" id="5u1-6U-Neo"/>
                         <outlet property="lbAuthor" destination="tM7-i7-LTh" id="m4K-0H-Wei"/>
                         <outlet property="lbQuotes" destination="I2q-zL-spm" id="Gi8-hy-2jS"/>
+                        <outlet property="lcTop" destination="bCG-Y5-VZD" id="u7B-eu-Ctj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

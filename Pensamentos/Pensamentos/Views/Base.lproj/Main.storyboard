@@ -72,6 +72,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quotes" id="uLh-JG-onl"/>
                     <connections>
+                        <outlet property="ctTop" destination="bCG-Y5-VZD" id="OVc-D1-vsd"/>
                         <outlet property="ivPhoto" destination="dQ2-bM-oUN" id="9Yf-4G-ygP"/>
                         <outlet property="ivPhotoBg" destination="xXm-R1-Bw9" id="5u1-6U-Neo"/>
                         <outlet property="lbAuthor" destination="tM7-i7-LTh" id="m4K-0H-Wei"/>

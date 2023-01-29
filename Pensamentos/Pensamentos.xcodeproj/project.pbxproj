@@ -16,7 +16,7 @@
 		B722277F2985B5E5003B69C2 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = B722277D2985B5E5003B69C2 /* Savoye LET.ttc */; };
 		B72227822986D861003B69C2 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72227812986D861003B69C2 /* QuotesViewController.swift */; };
 		B72227842986D8A8003B69C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72227832986D8A8003B69C2 /* SettingsViewController.swift */; };
-		B72227882986E0C8003B69C2 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72227872986E0C8003B69C2 /* Quotes.swift */; };
+		B72227882986E0C8003B69C2 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72227872986E0C8003B69C2 /* Quote.swift */; };
 		B722278B2986E122003B69C2 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722278A2986E122003B69C2 /* QuotesManager.swift */; };
 		B722278D2986E168003B69C2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722278C2986E168003B69C2 /* Configuration.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		B722277D2985B5E5003B69C2 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
 		B72227812986D861003B69C2 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		B72227832986D8A8003B69C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		B72227872986E0C8003B69C2 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		B72227872986E0C8003B69C2 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		B722278A2986E122003B69C2 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
 		B722278C2986E168003B69C2 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,7 +110,7 @@
 		B72227892986E0F2003B69C2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B72227872986E0C8003B69C2 /* Quotes.swift */,
+				B72227872986E0C8003B69C2 /* Quote.swift */,
 				B722278C2986E168003B69C2 /* Configuration.swift */,
 				B722278A2986E122003B69C2 /* QuotesManager.swift */,
 			);
@@ -193,7 +193,7 @@
 				B72227822986D861003B69C2 /* QuotesViewController.swift in Sources */,
 				B72227692985B3AC003B69C2 /* AppDelegate.swift in Sources */,
 				B722278D2986E168003B69C2 /* Configuration.swift in Sources */,
-				B72227882986E0C8003B69C2 /* Quotes.swift in Sources */,
+				B72227882986E0C8003B69C2 /* Quote.swift in Sources */,
 				B722276B2985B3AC003B69C2 /* SceneDelegate.swift in Sources */,
 				B722278B2986E122003B69C2 /* QuotesManager.swift in Sources */,
 				B72227842986D8A8003B69C2 /* SettingsViewController.swift in Sources */,

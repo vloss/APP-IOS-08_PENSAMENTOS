@@ -29,23 +29,28 @@ class Configuration {
     
     var colorScheme: Int{
         get {
-            return defaults.double(forKey: userDefaultsKeys.colorScheme.rawValue)
+            return defaults.integer(forKey: userDefaultsKeys.colorScheme.rawValue)
         }
         set{
             defaults.set(newValue, forKey: userDefaultsKeys.colorScheme.rawValue)
         }
     }
-    var timeInterval: Double{
+    
+    var autorefresh: Bool{
         get {
-            return defaults.double(forKey: userDefaultsKeys.timeInterval.rawValue)
+            return defaults.bool(forKey: userDefaultsKeys.autorefresh.rawValue)
         }
         set{
-            defaults.set(newValue, forKey: userDefaultsKeys.timeInterval.rawValue)
+            defaults.set(newValue, forKey: userDefaultsKeys.autorefresh.rawValue)
         }
     }
     
     
     private init(){
+        
+        if defaults.integer(forKey: userDefaultsKeys.timeInterval.rawValue)  == 0 {
+            defaults.set(8.0, forKey: userDefaultsKeys.timeInterval.rawValue)
+        }
         
     }
     

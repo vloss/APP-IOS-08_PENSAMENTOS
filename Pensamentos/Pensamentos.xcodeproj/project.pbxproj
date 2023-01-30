@@ -19,6 +19,7 @@
 		B72227882986E0C8003B69C2 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72227872986E0C8003B69C2 /* Quote.swift */; };
 		B722278B2986E122003B69C2 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722278A2986E122003B69C2 /* QuotesManager.swift */; };
 		B722278D2986E168003B69C2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722278C2986E168003B69C2 /* Configuration.swift */; };
+		B72227912987FC08003B69C2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B72227902987FC08003B69C2 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B72227872986E0C8003B69C2 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		B722278A2986E122003B69C2 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
 		B722278C2986E168003B69C2 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		B72227902987FC08003B69C2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				B72227682985B3AC003B69C2 /* AppDelegate.swift */,
+				B72227902987FC08003B69C2 /* Settings.bundle */,
 				B722276A2985B3AC003B69C2 /* SceneDelegate.swift */,
 				B72227802985B5FF003B69C2 /* Files */,
 				B72227852986D8D8003B69C2 /* Controllers */,
@@ -179,6 +182,7 @@
 				B72227752985B3AD003B69C2 /* LaunchScreen.storyboard in Resources */,
 				B72227722985B3AD003B69C2 /* Assets.xcassets in Resources */,
 				B722277F2985B5E5003B69C2 /* Savoye LET.ttc in Resources */,
+				B72227912987FC08003B69C2 /* Settings.bundle in Resources */,
 				B72227702985B3AC003B69C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
